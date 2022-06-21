@@ -10,7 +10,7 @@
 
 ## Description
 
-In this application, you will witness my use of HTML, CSS along with incorporating Bootstrap
+In this application, you will witness my use of HTML, CSS along with incorporating Bootstrap all while being mobile responsive. 
 
 ## Deployment: 
 
