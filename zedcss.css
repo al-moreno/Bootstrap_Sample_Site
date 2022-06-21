@@ -1,0 +1,26 @@
+div{
+    height: 100px;
+    width: 100px;
+    border:solid 2px;
+    position: absolute;
+
+}
+.red{
+    background-color: red;
+    z-index: 1;
+}
+.yellow{
+    background-color: yellow;
+    left: 25px;
+    top: 25px
+}
+.blue{
+    background-color: blue;
+    left: 40px;
+    top: 40px;
+    z-index: -1;
+}
+
+/* default is static. you can nest a div and we know that children elements sit on a parent element. Change it to position absolute which takes it out of the html flow. by adding left and top margin you can see they are all stacked.
+
+To change the stacking order, you use the zed index of -1, 0(defult) or 1. Zed index only works if the positon is absolute, relative or fixed on the elements*/

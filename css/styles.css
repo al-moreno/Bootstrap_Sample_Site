@@ -8,21 +8,22 @@ body {
 }
 
 .container-fluid {
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
 
 h1 {
     font-family: 'Montserrat-black', sans-serif;
-    font-size: 3.5rem;
+    font-size: 3rem;
     line-height: 1.5;
-    font-weight: 900;
+    font-weight: 800;
     filter: drop-shadow(8px 8px 2px #8b3b4774);
 }
 h2{
     font-family:  'Montserrat-black', sans-serif;
-    font-weight: 700;
-    font-size: 1.5rem;
-    padding:7% 5% 0 5%;
+    /* font-weight: 700; */
+    /* font-size: 1.5rem; */
+    /* padding:7% 5% 0 5%; */
+    font-size: 3.5rem;
     line-height: 1.5;
     filter: drop-shadow(8px 8px 2px #8b3b4774);
 }  
@@ -44,7 +45,8 @@ p {
 }
 
 .navbar-brand {
-    font-size: 1.5rem;
+    /* font-size: 1.5rem; */
+    font-size: 2.5rem;
     font-family: "Ubuntu";
     font-weight: bold;
 }
@@ -66,19 +68,22 @@ p {
 
 /* title image */
 .title-img {
-    width: 50%;
-    margin-left: 100px;
-    transform: rotate(15deg);
+    width:15%;
+    transform: rotate(18deg);
+    position: absolute;
+    right: 20%; 
 }
 
 /* feature section */
 #features {
     padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
 }
 
 .feature-box {
     text-align: center;
-    padding: 5%
+    padding: 4.5%
 }
 
 .icon {
@@ -121,6 +126,40 @@ p {
    margin: 2%;
 }
 
+/* Pricing */
+
+#pricing{
+    padding: 70px
+}
+.edit-btn{
+    background-color: #ff4c68;
+}
+
+/* 1300px and below */
+@media screen and (max-width: 1300px){
+
+
+    .title-img{
+        position: absolute;
+        width:15%;
+    }
+    h2{
+        font-size: 2.5rem;
+        line-height: 1.2;
+    }
+}
+
+@media screen and (max-width: 1000px){
+
+    #title{
+        text-align: center;
+    }
+
+    .title-img{
+      display: none;
+
+    }
+}
 
 
 
